@@ -1,6 +1,7 @@
 .DS_Store
 bootstrap-3.3.7-dist
 jQuery
+static
 
 # Editor directories and files
 .idea

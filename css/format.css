@@ -1,5 +1,7 @@
+/*导航条*/
 nav#nav{
-	background-color: #fff
+	background-color: #fff;
+	box-shadow: 0px 1px 1px #e8e8e8;
 }
 #nav_title>li>a:hover{
 	color: #797979;
@@ -7,11 +9,102 @@ nav#nav{
 #nav .nav>li>a:hover{
 	color: #797979;
 }
+#nav .nav>li.active>a:hover{
+	color: #FF7F21;
+}
 #nav_title>li.active>a{
 	color: #FF7F21;
 	background-color: #fff;
 }
 #nav_title>li>a{
-	padding-right: 40px;
-	padding-left: 40px;
+	padding: 0;
+	margin:15px 40px;
+}
+#nav .navbar-right>li{
+	padding:15px;
+	color: #797979;
+}
+/*首页轮播图*/
+#carousel-example-generic{
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+}
+#carousel-example-generic .carousel-inner img{
+	width: 100%;
+	height: 250px;
+}
+/*标签页*/
+#tab{
+	margin:10px 20px;
+}
+#tab .nav-tabs{
+	border:none;
+}
+#tab>.nav-tabs>li>a,#tab>.nav-tabs>li>a:hover,#tab>.nav-tabs>li.active>a{
+	border:none;
+	background-color: #fff;
+	color: #797979;
+}
+#tab>.nav-tabs>li.active>a{
+	color: #FF7F21;
+}
+#tab .tab-content{
+	padding:0 15px;
+}
+ul,li{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+	/*设计文章*/
+ul .row .thumbnail{
+	height: 200px;
+	border: none;
+	overflow: hidden;
+}
+ul .row img{
+	width: 100%;
+}
+ul .caption{
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.caption>h3{
+	overflow:hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.caption>p:first-of-type{
+	overflow:hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.caption .iconweibiaoti40{
+	font-size: 30px;
+	color: #FF7F21;
+	text-decoration: none;
+}
+/*分页*/
+#pagecontrol{
+	text-align: center;
+}
+/*底部栏*/
+footer.container-fluid{
+	box-shadow: 0px -1px 1px #e8e8e8;
+	height: 100px;
+	padding-top: 15px;
+	padding-right: 35px;
+	padding-left: 35px;
+}
+.row .center{
+	width: 300px;
+	margin:0 auto;
+	text-align: center;
 }
