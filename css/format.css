@@ -66,11 +66,18 @@ ul .row .thumbnail{
 ul .row img{
 	width: 100%;
 }
-ul .caption{
+ul.home .caption{
 	height: 200px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+ul.home li{
+	margin-top:5px;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	box-shadow: 1px 1px 1px #e8e8e8,-1px -1px 1px #e8e8e8;
+	border-radius: 5px;
 }
 .caption>h3{
 	overflow:hidden;
